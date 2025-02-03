@@ -3,8 +3,8 @@
 int main() {
     int a, b;
     printf("");
-    scanf("%d %d", &a  &b);
+    scanf("%d %d", &a &b);
     int sum = a + b;
-    printf("Sum: %d \n", sum);
+    printf("Sum: %d", sum);
     return 0;
 }
