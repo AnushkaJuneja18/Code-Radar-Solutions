@@ -8,8 +8,11 @@ int main() {
     if (ch >= 'A' && ch <= 'Z') {
         printf("Uppercase");
     }
-    else {
+    else if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase");
+    }
+    else {
+        printf("Not a english letter \n");
     }
     return 0;
 }
