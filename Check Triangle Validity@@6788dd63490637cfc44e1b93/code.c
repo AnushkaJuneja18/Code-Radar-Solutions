@@ -8,7 +8,7 @@ int main() {
         printf("Valid \n");
     }
     else {
-        printf("Invalid \n")
+        printf("Invalid \n");
     }
     return 0;
 }
