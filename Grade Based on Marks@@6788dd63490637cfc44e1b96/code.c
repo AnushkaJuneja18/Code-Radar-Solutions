@@ -13,7 +13,7 @@ int main() {
     else if(n >= 60 || n < 70); {
         printf("C \n");
     }
-    else {
+    else{
         printf("D \n");
     }
     return 0;
