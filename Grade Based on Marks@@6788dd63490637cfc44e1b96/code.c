@@ -5,16 +5,16 @@ int main() {
     printf("");
     scanf("%d", &n);
     if(n >= 90 || n >= 80) {
-        printf("A");
+        printf("A \n");
     }
     else if(n <= 90 || n >= 70) {
-        printf("B");
+        printf("B \n");
     }
     else if(n >= 60 || n < 70); {
-        printf("C");
+        printf("C \n");
     }
     else {
-        printf("D");
+        printf("D \n");
     }
     return 0;
 }
