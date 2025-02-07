@@ -7,7 +7,7 @@ int main() {
     if(a > b & c) {
         printf("a");
     }
-    if(b > a & c) {
+    else if(b > a & c) {
         printf("b");
     }
     else {
