@@ -1,24 +1,24 @@
 #include<stdio.h>
 
 int main() {
-    int a;
+    int day;
     printf("");
-    scanf("%d", &a);
-    switch(1-7) {
+    scanf("%d", &day);
+    switch(day) {
         Case 1: Monday;
-        break;
+            break;
         Case 2: Tuesday;
-        break;
+            break;
         Case 3: Wednesday;
-        break;
+            break;
         Case 4: Thursday;
-        break;
+            break;
         Case 5: Friday;
-        break;
+            break;
         Case 6: Saturday;
-        break;
+            break;
         Case 7: Sunday;
-        break;
+            break;
         Default: Invalid;
     }
     return 0;
