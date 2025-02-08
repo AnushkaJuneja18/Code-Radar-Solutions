@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main() {
-    int A, B;
+    int a, b;
     printf("");
-    scanf("%d %d", &A, &B);
-    printf("%d %d", A|B);
+    scanf("%d %d", &a, &b);
+    printf("%d \n", A | B);
     return 0;
 }
