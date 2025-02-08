@@ -4,7 +4,7 @@ int main() {
     char ch;
     printf("");
     scanf("%c", &ch);
-    if (ch >= 'a' && ch <= '9') {
+    if (ch >= '0' && ch <= '9') {
         printf("Digit \n");
     }
     else if (ch >= 'a' && ch <= 'z') {
