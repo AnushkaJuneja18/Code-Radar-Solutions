@@ -12,7 +12,7 @@ int main() {
             printf("Vowel \n");
         else
             printf("Consonant \n");
-        else
+    else
         printf("Special Character");
         }
     }
