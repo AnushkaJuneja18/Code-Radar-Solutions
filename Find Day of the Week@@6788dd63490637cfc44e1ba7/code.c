@@ -3,7 +3,7 @@
 int main() {
     char day;
     printf("");
-    scanf("%c", &day);
+    scanf("%s", &day);
     switch(day) {
         Case 1: printf("Monday \n");
             break;
