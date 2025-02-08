@@ -1,9 +1,14 @@
 #include<stdio.h>
 
 int main() {
-    int a;
+    int N;
     printf("");
-    scanf("%d", &a);
-    printf("%d \n", -(a + 1)+ 1);
+    scanf("%d", &N);
+    if (N  & 1) {
+        printf("Set \n");
+    }
+    else {
+        printf("Not Set \n")
+    }
     return 0;
 }
