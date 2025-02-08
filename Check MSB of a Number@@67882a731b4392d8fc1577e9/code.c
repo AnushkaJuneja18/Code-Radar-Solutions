@@ -4,7 +4,7 @@ int main() {
     int N;
     printf("");
     scanf("%d \n" &N);
-    if (N | 1) {
+    if (N & 0x80000000) {
         printf("Set \n");
     }
     else {
