@@ -7,13 +7,13 @@ int main() {
     if(a >= 90) {
         printf("A \n");
     }
-    else if(a >= 80 || a < 90) {
+    else if(a >= 80) {
         printf("B \n");
     }
-    else if(a >= 70 || a < 80) {
+    else if(a >= 70) {
         printf("C \n");
     }
-    else if(a >= 60 || a < 70) {
+    else if(a >= 60) {
         printf("D \n");
     }
     else {
