@@ -5,16 +5,16 @@ int main() {
     printf("");
     scanf("%c \n", &ch);
     if('R') {
-        printf("Stop \n");
+        printf("Stop");
     }
     else if('G') {
-        printf("Go \n");
+        printf("Go");
     }
     else if('Y') {
-        printf("Slow Down \n");
+        printf("Slow Down");
     }
     else {
-        printf("Invalid input \n");
+        printf("Invalid input");
     }
     return 0;
 }
