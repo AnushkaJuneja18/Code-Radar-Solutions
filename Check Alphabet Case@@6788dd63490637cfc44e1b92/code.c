@@ -12,7 +12,7 @@ int main() {
         printf("Lowercase \n");
     }
     else {
-        printf("Not an english letter \n");
+        printf("Not an alphabet \n");
     }
     return 0;
 }
