@@ -1,7 +1,6 @@
 // Your code here...
 
 # include<stdio.h>
-# include<conio.h>
 
 int main() {
     int N;
