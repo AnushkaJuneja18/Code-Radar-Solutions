@@ -4,7 +4,7 @@ int main() {
     int a, b;
     char op;
     printf("");
-    scanf("%d %d %c", &a, &b, &op);
+    if (scanf("%d %d %c", &a, &b, &op)!= 3);
     switch(op) {
         case '+' : printf("%d \n", a + b);
             break;
