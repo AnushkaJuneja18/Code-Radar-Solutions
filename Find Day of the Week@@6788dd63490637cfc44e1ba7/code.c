@@ -5,21 +5,21 @@ int main() {
     printf("");
     scanf("%d", &day);
     switch(day) {
-        Case 1: printf("Monday \n");
+        case 1 : printf("Monday \n");
             break;
-        Case 2: printf("Tuesday \n");
+        case 2 : printf("Tuesday \n");
             break;
-        Case 3: printf("Wednesday \n");
+        case 3 : printf("Wednesday \n");
             break;
-        Case 4: printf("Thursday \n");
+        case 4 : printf("Thursday \n");
             break;
-        Case 5: printf("Friday \n");
+        case 5 : printf("Friday \n");
             break;
-        Case 6: printf("Saturday \n");
+        case 6 : printf("Saturday \n");
             break;
-        Case 7: printf("Sunday \n");
+        case 7 : printf("Sunday \n");
             break;
-        Default: printf("Invalid \n");
+        default : printf("Invalid \n");
     }
     return 0;
 }
