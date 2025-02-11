@@ -3,18 +3,15 @@
 int main() {
     char ch;
     printf("");
-    scanf("%c \n", &ch);
-    if('R') {
-        printf("Stop");
-    }
-    else if('G') {
-        printf("Go");
-    }
-    else if('Y') {
-        printf("Slow Down");
-    }
-    else {
-        printf("Invalid input");
+    scanf("%c", &ch);
+    switch(ch) {
+        case 'R' : printf("Stop \n");
+            break;
+        case 'G' : printf("Go \n");
+            break;
+        case 'Y' : printf("Slow Down \n");
+            break;
+        default : printf("Invalid input");
     }
     return 0;
 }
