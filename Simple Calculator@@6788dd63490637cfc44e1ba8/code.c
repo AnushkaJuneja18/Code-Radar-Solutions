@@ -2,15 +2,19 @@
 
 int main() {
     int a, b;
+    char op;
     printf("");
-    scanf("%d %d", &a, &b);
-    int addition = a + b;
-    int subtraction = a - b;
-    int multiplication = a * b;
-    int divison = a / b;
-    printf("%d \n", addition);
-    printf("%d \n", subtraction);
-    printf("%d \n", multiplication);
-    printf("%d \n", divison);
+    scanf("%d %d %c", &a, &b, &op);
+    switch(op) {
+        case '+' : printf("%d \n", a + b);
+            break;
+        case '-' : printf("%d \n", a - b);
+            break;
+        case '*' : printf("%d \n", a * b);
+            break;
+        case '/' : printf("%d \n", a / b);
+            break;
+        default : printf("error \n");
+    }
     return 0;
 }
