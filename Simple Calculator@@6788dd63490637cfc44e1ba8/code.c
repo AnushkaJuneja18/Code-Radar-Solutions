@@ -5,7 +5,7 @@ int main() {
     char op;
     printf("");
     if (scanf("%d %d %c", &a, &b, &op)!= 3) {
-        printf("error \n");
+        printf("Error \n");
     }
     switch(op) {
         case '+' : printf("%d \n", a + b);
