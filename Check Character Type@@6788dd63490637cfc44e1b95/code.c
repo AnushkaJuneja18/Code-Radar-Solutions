@@ -10,11 +10,11 @@ int main() {
     else if (ch >= 0 && ch <= 9) {
         printf("Digit \n");
     }
-    else if (ch >= a && ch <= z) {
-        printf("Special Character \n");
+    else if (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u') {
+        printf("Consonant \n");
     }
     else {
-        printf("Consonant \n");
+        printf("Special Character \n");
     }
     return 0;
 }
