@@ -1,10 +1,9 @@
-#include<stdio.h>
+# include <stdio.h>
 
 int main() {
-    int N;
-    printf("");
-    scanf("%d \n" &N);
-    if (N & 0x80000000) {
+    int num;
+    scanf("%d", &num);
+    if (num & (1 << 31)) {
         printf("Set \n");
     }
     else {
