@@ -11,7 +11,6 @@ int main () {
         if(i < N) {
             printf(" ");
         }
-        printf("/n");
     }
     return 0;
 }
