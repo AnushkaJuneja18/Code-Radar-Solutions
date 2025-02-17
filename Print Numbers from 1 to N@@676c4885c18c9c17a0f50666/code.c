@@ -10,7 +10,6 @@ int main () {
         printf("%d", i);
         if(i < N) {
             printf(" ");
-            printf("\n");
         }
     }
     return 0;
