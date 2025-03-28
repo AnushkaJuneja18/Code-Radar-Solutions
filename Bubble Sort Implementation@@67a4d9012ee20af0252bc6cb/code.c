@@ -11,6 +11,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     bubble sort(arr, n);
-    printarray(arr, n);
+    printArray(arr, n);
     return 0;
 }
