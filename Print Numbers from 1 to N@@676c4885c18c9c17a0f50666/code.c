@@ -11,6 +11,9 @@ int main () {
         if(i < N) {
             printf(" ");
         }
+        else {
+            printf("%d", i);
+        }
     }
     return 0;
 }
