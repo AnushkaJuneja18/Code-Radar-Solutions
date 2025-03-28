@@ -5,12 +5,12 @@ int main() {
     int N;
     printf("");
     scanf("%d", &N);
-    for(int i = N; i <= N; i++) {
-        for(int j = 1; j <= N-i; j++) {
+    for(int i = 1; i <= N; i++) {
+        for(int j = 5; j > i; j--) {
             printf(" ");
         }
         for(int k = 1; k <= 2*i-1; k++) {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
