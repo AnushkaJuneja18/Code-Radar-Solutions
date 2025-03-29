@@ -6,10 +6,12 @@ int main() {
     int N;
     printf("");
     scanf("%d", &N);
-    char i, j;
-    for(int i = 0; i < N; i++) {
-        for(char j = 'A'; j <= 'A'; j++) {
-            printf("%c", j);
+    for(int i = 1; i <= n; i++) {
+        int a = 1;
+        for(int j = 1; j <= i; j++) {
+            int d = a + 64;
+            char ch = (char)d;
+            printf("%c", ch);
         }
         printf("\n");
     }
