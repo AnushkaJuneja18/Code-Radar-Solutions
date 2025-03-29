@@ -12,7 +12,7 @@ int main() {
             int d = 65 + 'A';
             char ch = (char)d;
             printf("%c ", ch);
-            a++;
+            a--;
         }
         printf("\n");
     }
