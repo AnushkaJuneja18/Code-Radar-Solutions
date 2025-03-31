@@ -14,7 +14,7 @@ int main() {
         }
         nsp = nsp - 1;
         for(int k = 1; k <= nst; k++) {
-            printf("%d", j);
+            printf("%d", k);
         }
         nst = nst + 2;
         printf("\n");
