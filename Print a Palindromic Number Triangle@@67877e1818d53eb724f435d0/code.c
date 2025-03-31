@@ -11,7 +11,7 @@ int main() {
             printf(" ");
         }
         nsp--;
-        for(int j = 1 ; j <= n; j++) {
+        for(int j = 1 ; j <= i; j++) {
             printf("%d", j);
         }
         for(int k = 1; k <= i-1; k++) {
