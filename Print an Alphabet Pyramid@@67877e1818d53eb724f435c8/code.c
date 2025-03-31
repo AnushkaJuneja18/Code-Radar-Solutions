@@ -4,7 +4,7 @@
 
 int main() {
     int n;
-    printf("enter no of rows : ");
+    printf("");
     scanf("%d", &n);
     int nst = 1;
     for(int i = 1; i <= n; i++) {
