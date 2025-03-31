@@ -3,18 +3,16 @@
 #include<stdio.h>
 
 int main() {
-    int n;
+    int n; 
     printf("");
     scanf("%d", &n);
     int nst = 1;
-    int nsp = 3;
-    for(int i = 1; i <= n; i++) {
-        for(int j = 1; j <= nsp; j++) {
+    for(int i = 1; i <= n-i; i++) {
+        for(int j = 1; j <= n-i; j++) {
             printf(" ");
         }
-        nsp = nsp - 1;
         for(int k = 1; k <= nst; k++) {
-            printf("%d", k);
+            printf("%d", i);
         }
         nst = nst + 2;
         printf("\n");
