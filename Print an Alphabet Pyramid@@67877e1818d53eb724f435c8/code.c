@@ -12,7 +12,7 @@ int main() {
             printf(" ");
         }
         for(int k = 1; k <= nst; k++) {
-            printf("*");
+            printf("%d", k);
         }
         nst = nst + 2;
         printf("\n");
