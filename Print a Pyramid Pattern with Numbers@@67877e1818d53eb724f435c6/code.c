@@ -5,7 +5,7 @@
 int main() {
     int n;
     printf("");
-    scanf("%d ", &n);
+    scanf("%d", &n);
     int nst = 1;
     int nsp = 3;
     for(int i = 1; i <= n; i++) {
@@ -14,7 +14,7 @@ int main() {
         }
         nsp = nsp - 1;
         for(int k = 1; k <= nst; k++) {
-            printf("%d", i);
+            printf("%d ", i);
         }
         nst = nst + 2;
         printf("\n");
