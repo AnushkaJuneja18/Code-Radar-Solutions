@@ -9,8 +9,8 @@ void selectionSort(int arr[], int n) {
                 mindex = j;
             }
         }
-        int temp = arr[minidex];
-        arr[minidex] = arr[i];
+        int temp = arr[mindex];
+        arr[mindex] = arr[i];
         arr[i] = temp;
     }
 }
