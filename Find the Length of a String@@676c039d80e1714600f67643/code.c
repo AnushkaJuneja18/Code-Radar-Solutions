@@ -7,5 +7,4 @@ int main() {
     scanf("%c", name);
     int length = strlen(name);
     printf("%d ", length);
-    return 0;
 }
