@@ -6,5 +6,4 @@ int main() {
     scanf("%s", name);
     int length = strlen(name);
     printf("%d", length);
-    return 0;
 }
