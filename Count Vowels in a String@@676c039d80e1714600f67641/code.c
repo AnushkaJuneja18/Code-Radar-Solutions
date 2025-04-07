@@ -4,7 +4,7 @@
 
 void countVowels(char str[]);
 int main() {
-    char str[];
+    char str[100];
     printf("%d", countVowels(str));
 }
 void countVowels(char str[]) {
