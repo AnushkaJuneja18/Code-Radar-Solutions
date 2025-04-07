@@ -3,7 +3,6 @@
 #include<string.h>
 int main() {
     char name[100];
-    printf("");
     scanf("%s", name);
     int length = strlen(name);
     printf("%d", length);
