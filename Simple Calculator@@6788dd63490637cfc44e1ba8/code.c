@@ -23,7 +23,7 @@ int main() {
                     printf("%d \n", a / b);
                 }
             break;
-        default : printf("error \n");
+        default : printf("Error \n");
             break;
     }
     return 0;
