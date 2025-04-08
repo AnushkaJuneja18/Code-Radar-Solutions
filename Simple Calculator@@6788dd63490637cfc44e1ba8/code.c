@@ -5,7 +5,7 @@ int main() {
     char op;
     printf("");
     if (scanf("%d %d %c", &a, &b, &op)!= 3) {
-        printf("Error \n");
+        printf("Error");
         return 1;
     }
     switch(op) {
@@ -23,7 +23,7 @@ int main() {
                     printf("%d", a / b);
                 }
             break;
-        default : printf("Error \n");
+        default : printf("Error");
     }
     return 0;
 }
