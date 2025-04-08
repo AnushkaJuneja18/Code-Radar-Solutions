@@ -6,6 +6,7 @@ int main() {
     printf("");
     if (scanf("%d %d %c", &a, &b, &op)!= 3) {
         printf("Error \n");
+        return 1;
     }
     switch(op) {
         case '+' : printf("%d \n", a + b);
@@ -17,6 +18,7 @@ int main() {
         case '/' : printf("%d \n", a / b);
             break;
         default : printf("error \n");
+            break;
     }
     return 0;
 }
