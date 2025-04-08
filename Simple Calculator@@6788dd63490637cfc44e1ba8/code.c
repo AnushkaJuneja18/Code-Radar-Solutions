@@ -9,11 +9,11 @@ int main() {
         return 1;
     }
     switch(op) {
-        case '+' : printf("%d \n", a + b);
+        case '+' : printf("%d", a + b);
             break;
-        case '-' : printf("%d \n", a - b);
+        case '-' : printf("%d", a - b);
             break;
-        case '*' : printf("%d \n", a * b);
+        case '*' : printf("%d", a * b);
             break;
         case '/' :
                 if(b == 0) {
