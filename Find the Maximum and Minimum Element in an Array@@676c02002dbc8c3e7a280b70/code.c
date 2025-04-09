@@ -1,5 +1,4 @@
 // Your code here...
-
 #include<stdio.h>
 int main() {
     int n;
@@ -14,7 +13,7 @@ int main() {
         if(max < arr[i]) {
             max = arr[i];
         }
-        else {
+        if(min > arr[i]) {
             min = arr[i];
         }
     }
