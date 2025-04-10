@@ -2,10 +2,13 @@
 #include<stdio.h>
 
 void reverse(int arr[], int si, int ei) {
-    for(int i = si; int j = ei; i < j; i++, j--) {
+    int i = si, j = ei;
+    while (i < j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+        i++;
+        j--;
     }
     return;
 }
