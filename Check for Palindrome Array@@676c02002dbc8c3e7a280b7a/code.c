@@ -1,5 +1,5 @@
 // Your code here...
-#includee<stdio.h>
+#include<stdio.h>
 
 int palindrome(int arr[], int n);
 
