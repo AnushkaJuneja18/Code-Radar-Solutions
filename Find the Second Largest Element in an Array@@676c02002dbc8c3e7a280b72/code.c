@@ -20,6 +20,6 @@ int main() {
             smax = arr[i];
         }
     }
-    printf("%d ", smax);
+    printf("%d", smax);
     return 0;
 }
