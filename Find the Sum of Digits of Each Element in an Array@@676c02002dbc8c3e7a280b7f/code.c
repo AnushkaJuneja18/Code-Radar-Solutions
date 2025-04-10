@@ -8,9 +8,8 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    int sum = 0;
-    for(int i = 0; i <= n-1; i++) {
-        sum = sum + arr[i];
+    for(int i = 0; i < n; i++) {
+        printf("%d %d", i , arr[i])
     }
     printf("%d", sum);
     return 0;
